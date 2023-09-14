@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'SolaimanLipi';
+    src: url('./fonts/SolaimanLipi.eot');
+    src: url('./fonts/SolaimanLipi.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/SolaimanLipi.woff2') format('woff2'),
+        url('./fonts/SolaimanLipi.woff') format('woff'),
+        url('./fonts/SolaimanLipi.ttf') format('truetype'),
+        url('./fonts/SolaimanLipi.svg#SolaimanLipi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'SolaimanLipi';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'SolaimanLipi';
+}
+p {
+    font-family: 'SolaimanLipi';
+}
+span {
+    font-family: 'SolaimanLipi';
+}
+a {
+    font-family: 'SolaimanLipi';
+}
+ul {
+    font-family: 'SolaimanLipi';
+}
+li {
+    font-family: 'SolaimanLipi';
+}
+
+
+/* Form start */
+.form-section-wrapper {
+    padding-block: 120px;
+    max-width:  100% !important;
+    background: #FFFCEF;
+}
+.form-section-inner-wrap {
+    max-width: 1470px;
+    margin-inline: auto;
+    display: flex;
+    padding-inline: 30px;
+    gap: 30px;
+}
+.form-left-sec {
+    width: 100%;
+}
+.form-right-sec {
+    width: 100%;
+    margin-left: 80px;
+}
+.form-title {
+    color: #333;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.36em;
+    margin-bottom: 35px;
+}
+.input-form-wrap label {
+    color: #404040;
+    font-family: SolaimanLipi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.05em;
+    letter-spacing: 0.4px;
+    margin-bottom: 28px;
+    display: block;
+    padding-bottom: 5px;
+}
+.input-form-wrap label span {
+    color: #E11E00;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+.sg-form-control {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #D4D4D4;
+    background: #FFF;
+    height: 66px;
+    font-size: 18px;
+    line-height: 1.4em;
+    transition: all 200ms linear;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sg-form-control:focus {
+    outline: none;
+    border: 1px solid #6D5600;
+}
+.country-name {
+    color: #404040;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.63em;
+}
+.margin-bottom-0 {
+    margin-bottom: 0px !important;
+}
+.product-subtitle-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 15px;
+
+}
+.product-subtitle-title span {
+    color: #404040;
+    font-family: Roboto !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.45em; /* 145.069% */
+}
+.subtotal-price-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #404040;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.45em;
+}
+.shipping-price-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-top: 5px;
+    color: #404040;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.45em; /* 145.069% */
+}
+.radio-check-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.check_in_dhaka {
+    display: flex;
+    display: inline-block;
+}
+.total-price-title {
+    display: flex;
+    justify-content: space-between;
+    color: #404040;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:1.45em;
+    padding-top: 15px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.cash-on-delivery {
+    color: #404040;
+    font-family: SolaimanLipi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2em; /* 200% */
+    margin-top: 55px;
+    margin-bottom: 12px;
+}
+.text-like-btn {
+    color: #858585;
+    font-family: SolaimanLipi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em; /* 150% */
+
+    border-radius: 2.909px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.privacy-policy-text {
+    color: #777;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:1.5em;
+    ;
+}
+.privacy-policy-text a {
+    color: #F16334;
+    text-decoration: none;
+}
+
+.form-submit-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: SolaimanLipi;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.34em; /* 134.231% */
+    letter-spacing: -0.27px;
+    border-radius: 5px;
+    background: #6D5600;  
+    padding: 18px 0px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.product-img {
+    max-width: 100%;
+}
+.product-talbina-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.single-product-select-wrap {
+    padding-block: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.product-img-con {
+    display: flex;
+}
+.product-img-title {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.num-of-product-price-wrap {
+    display: flex;
+    align-items: center;
+}
+.num-of-product {
+    display: flex;
+    align-items: center;
+    
+}
+.sg-num-of-product {
+    border: 0;
+    background: transparent;
+    width: 52px;
+    padding: 0 0 !important;
+    text-align: center;
+}
+.product-cart-title-subtitle h5 {
+    color: #404040;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45em;
+}
+.product-cart-title-subtitle p {
+    color: #404040;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8em; /* 181.337% */
+}
+.prod-price {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* Responsive device... */
+
+@media (max-width: 768px) {
+    .form-section-inner-wrap {
+        flex-direction: column;
+    }
+    .form-right-sec {
+        margin-left: 0px;
+    }
+}
